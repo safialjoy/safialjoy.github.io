@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function add(){
+
+var a, b, c;
+a= Number(document.getElementById("first").value);
+b= Number(document.getElementById("second").value);
+c=a+b;
+document.getElementById("result").value = c;
+}
+
+function sub(){
+
+var a, b, c;
+a= Number(document.getElementById("first").value);
+b= Number(document.getElementById("second").value);
+c=a-b;
+document.getElementById("result").value = c;
+}
+
+function multiply(){
+
+var a, b, c;
+a= Number(document.getElementById("first").value);
+b= Number(document.getElementById("second").value);
+c=a*b;
+document.getElementById("result").value = c;
+}
+function division(){
+
+var a, b, c;
+a= Number(document.getElementById("first").value);
+b= Number(document.getElementById("second").value);
+c=a/b;
+document.getElementById("result").value = c;
+}
+</script>
+</head>
+<body>
+Enter the First number : <input id="first"><br>
+Enter the second number : <input id="second"><br>
+<button onclick="add()"> Addition</button>
+<button onclick="sub()"> Subtraction</button> <br>
+<button onclick="multiply()"> Multiplication</button>
+<button onclick="division()"> Division</button><br>
+<input id="result"></input>
+
+
+
+
+</body>
+</html>
